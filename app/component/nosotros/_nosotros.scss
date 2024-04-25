@@ -1,0 +1,58 @@
+.carousel {
+
+    .carousel-inner {
+
+        .carousel-caption {
+            padding: 0;
+            margin-bottom: 6rem;
+
+            .parrafo-nosotros {
+                margin: 0 auto;
+                margin-bottom: 2rem;
+                width: 50%;
+                height: 50%;
+                text-align: justify;
+
+                @media screen and (max-width: 768px) {
+                    width: 90%;
+                    height: 90%;
+                }
+
+            }
+        }
+    }
+
+    .btn-nosotros {
+        display: flex;
+        justify-content: center;
+        margin-top: 24rem;
+
+        .btn {
+            width: 35%;
+            z-index: 2;
+
+            &:hover {
+                background: black;
+                color: white;
+            }
+        }
+
+    }
+}
+
+.nosotros-principal {
+    margin-top: 2rem;
+
+    .container {
+        .titulo-principal {
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+}
+
+
+.carrousel {
+    margin-top: 2rem;
+}

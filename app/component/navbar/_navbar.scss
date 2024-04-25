@@ -1,0 +1,45 @@
+.navbar {
+    background: #000;
+    z-index: 2;
+
+    @media screen and (min-width: 992px) {
+        padding-left: 6rem;
+    }
+
+    .container-fluid {
+
+        .navbar-brand {
+            color: #ffff;
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        .navbar-toggler {
+            background: #ffff;
+        }
+
+
+
+        .navbar-collapse {
+            @media screen and (min-width: 992px) {
+                padding-left: 9rem;
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: #fff;
+                        margin-top: .4rem;
+                        font-size: .9rem;
+                        font-weight: bold;
+
+                        &:hover {
+                            color: gray;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

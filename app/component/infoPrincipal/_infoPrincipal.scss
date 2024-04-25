@@ -1,0 +1,43 @@
+.container {
+    .line-principal {
+        width: 5%;
+        height: 2px;
+        background: black;
+        margin: auto;
+        margin-top: 2rem;
+
+    }
+
+    .text-principal {
+
+        .parrafo-principal {
+            width: 50%;
+            margin: auto;
+            margin-top: 1rem;
+            font-size: .8rem;
+        }
+
+        .titulo-principal {
+            margin-top: 3rem;
+            font-weight: 900;
+        }
+        .line-principal2 {
+            width: 5%;
+            height: 2px;
+            background: black;
+            margin: auto;
+            margin-top: 1rem;
+    
+        }
+
+        .parrafos-principal {
+            width: 60%;
+            margin: auto;
+            margin-top: 3rem;
+
+            .parrafos-prin {
+                margin-top: 2rem;
+            }
+        }
+    }
+}

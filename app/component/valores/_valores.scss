@@ -1,0 +1,18 @@
+#valores {
+    margin: auto;
+    .container {
+        // margin: auto;
+        .card {
+            width: 300px;
+            height: 12rem;
+            background: linear-gradient(135deg, rgb(228, 226, 226), rgb(236, 223, 223));
+            padding: 1rem;
+            margin: auto;
+            cursor: pointer;
+
+            &:hover {
+                margin-top: -5px;
+            }
+        }
+    }
+}
